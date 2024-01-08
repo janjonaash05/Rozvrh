@@ -24,8 +24,16 @@ div
     align-items: center;
     background-color: red;
 
-    overflow-x:auto;
-    width: 900px;
+    max-width: 900px;
+    max-height:  700px;
+
+
+   
+    
+    
+
+    width: 90vw;
+    height: 70vw
 }
 
 table
@@ -36,11 +44,11 @@ table
   
 
     width: 100%;
-    height: 600px;
+    height: 100%;
     row-gap: 2px;
     column-gap: 2px;
 
-
+    overflow-x: auto;
 
 
 }
@@ -185,6 +193,13 @@ table
     align-items: center;
     color: white;
     
+
+}
+
+
+
+@media screen and (max-width : 600px) {
+
 
 }
 
